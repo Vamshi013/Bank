@@ -1,5 +1,11 @@
 package com.example.demo.repository;
 
-public class CustomerRepository {
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.entity.Customer;
+
+@Repository
+public interface CustomerRepository extends CrudRepository<Customer, Integer> {
 
 }
