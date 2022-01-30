@@ -69,6 +69,7 @@ public class Customer {
 	
 	@OneToOne(cascade =  CascadeType.ALL)
 	private Deposit deposit;
+	public Double getA;
 
 	public Customer(){
 		
