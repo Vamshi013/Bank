@@ -1,4 +1,4 @@
-package com.example.demo.constroller;
+package com.example.demo.controller;
 
 import javax.transaction.Transactional;
 import javax.validation.Valid;

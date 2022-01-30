@@ -17,7 +17,7 @@ public class WithdrawService {
 	public void makeWithdraw(Withdraw withdraw, Integer id) {
 		Customer customer = customerRepository.findById(id).get();
 		
-		Double initial_amount = customer.getA
+		Double initial_amount = customer.getA;
 	}
 
 }
